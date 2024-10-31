@@ -125,7 +125,7 @@ background: url(images/crash.png) no-repeat;
 
 @media only screen and (max-width: 700px) {
   .drum {
-    width: 169px !important;
+    width: 129px !important
     line-height: 150px;
     text-align: center;
 }

@@ -1,5 +1,8 @@
 # DrumQ
 DrumQ is a web-based drumming app built with HTML, CSS, and JavaScript, allowing users to play virtual drum sounds by pressing numbered keys corresponding to different drum parts displayed on the screen.
+<br>
+
+<strong style="font-weight:bold; display:block; width:100%;">https://quizeo.github.io/DrumQ/</strong>
 
 <div style=" disply:flex; justify-content: center; margin: 0 auto">
 <img src="HTML5_logo_and_wordmark.svg.png" alt="Description" width="80px" >

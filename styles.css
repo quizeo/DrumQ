@@ -1,0 +1,135 @@
+:root {
+  --gradient-background: linear-gradient(300deg, #283149, #394f8dd7, #242b3fd5);
+}
+
+
+
+/* background-color: #283149; */
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+body {
+  text-align: center;
+  background: var(--gradient-background);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.no_1 {
+background: url(images/crash.png) no-repeat;  
+}
+
+.no_2 {
+  background: url(images/kick.png) no-repeat;  
+}
+
+.no_3 {
+  background: url(images/snare.png) no-repeat;  
+}
+
+.no_4 { 
+  background: url(images/tom1.png) no-repeat;  
+}
+
+.no_5 {
+  background: url(images/tom2.png) no-repeat;  
+}
+
+.no_6 {
+  background: url(images/tom3.png) no-repeat;  
+}
+
+.no_7 {
+  background: url(images/tom4.png) no-repeat;  
+}
+
+.set {
+  margin: 10% 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 58px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+ 
+
+@media only screen and (max-width: 1500px) {
+  .set {
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .drum {
+    width: 277px !important;
+    line-height: 150px;
+    text-align: center;
+}
+}
+
+
+
